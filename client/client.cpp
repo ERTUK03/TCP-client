@@ -2,8 +2,8 @@
 
 int main()
 {
-	boost::asio::io_context context;
-	tcp_client client(context);
+	io_context context;
+	for(;;) tcp_client client(context);
 	context.run();
 }
 
