@@ -93,7 +93,7 @@ tcp_client::tcp_client(io_context& context) : socket{ context }
 		}
 		catch (...)
 		{
-			if (!flag) cout << "Error occured. Exiting";
+			if (!flag) cout << "Error occured. Exiting\n ";
 			return;
 		}
 	}
