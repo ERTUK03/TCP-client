@@ -19,9 +19,10 @@ public:
 	char buffer[4 * 1024] = {};
 	string message;
 	bool flag = false;
+	tcp_client(io_context& context);
 
+private:
 	void receive();
 	void send();
-	tcp_client(io_context& context);
 };
 
