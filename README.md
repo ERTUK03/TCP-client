@@ -4,7 +4,7 @@ Just a basic tcp-based client, made with boost::asio.
 # Requirements
 -C++17
 
--Boost
+-Boost/asio
 
 # Description
 It's made to work with a tcp server I made https://github.com/ERTUK03/TCP-server. Even though ftp functionality works with earlier mentioned server it doesn't mean
