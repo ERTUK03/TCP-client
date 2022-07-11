@@ -8,7 +8,7 @@ Just a basic tcp-based client, made with boost::asio.
 
 # Description
 It's made to work with a tcp server I made https://github.com/ERTUK03/TCP-server. Even though ftp functionality works with earlier mentioned server it doesn't mean
-it works with any ftp server(TL;DR it doesn't).
+it will work with any ftp server(TL;DR it won't).
 
 FTP works by sending file on main socket so while the transfer lasts no communication is possible(maybe I'll make something more advanced in the future).
 
